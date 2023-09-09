@@ -12,5 +12,6 @@ joblib
 types-PyYAML
 Flask
 Flask-Cors
+kaggle
 
 -e .

@@ -1,0 +1,8 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/pradeeppvj8/datasets/raw/main/wine-quality-data.zip
+  local_data_file: data/wine-quality.zip
+  unzip_dir: artifacts/data_ingestion
+  

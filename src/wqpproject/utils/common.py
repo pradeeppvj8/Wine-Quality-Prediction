@@ -1,7 +1,7 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from wqp_project import logger
+from wqpproject import logger
 import json
 import joblib
 from ensure import ensure_annotations
@@ -97,7 +97,7 @@ def load_bin(path: Path) -> Any:
         Any: object stored in the file
     """
     data = joblib.load(path)
-    logger.info(f"iBnary file loaded from : {path}")
+    logger.info(f"Binary file loaded from : {path}")
     return data
 
 @ensure_annotations

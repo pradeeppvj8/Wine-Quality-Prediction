@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 REPO_NAME = "Wine-Quality-Prediction"
 AUTHOR_NAME = "Pradeep P"
 AUTHOR_USER_NAME = "pradeeppvj8"
-SRC_REPO = "wqp_project"
+SRC_REPO = "wqpproject"
 AUTHOR_EMAIL = "pradeep.pvj8@gmail.com"
 
 setuptools.setup(
